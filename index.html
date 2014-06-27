@@ -12,9 +12,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-
     <link href="css/styles.css" rel="stylesheet">
-
+    <link href="css/paquetes.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -41,7 +40,7 @@
     </div>
     <!-- Preloader fin -->
     
-    <!-- Navigation inicia -->
+    <!-- Navigation inici -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -51,7 +50,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><strong>10º Congreso Internacional sobre TDAH</strong></a>
+          <a class="navbar-brand" href="#"><img style="position:absolute; bottom:0; padding: 5;" src="img/10congresosobretdah.png"></a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -109,7 +108,7 @@
 
         <div class="clearfix"></div>
 
-        <a href="#register" class="btn btn-color1 pull-right event-info-register-btn" style="background:#ff7722">Registrate <i class="fa fa-chevron-right"></i></a>
+        <a href="#register" class="btn pull-right event-info-register-btn" >Registrate </span><i class="fa fa-chevron-right"></i></a>
 
       </div>
       <div class="event-info-bg-left"></div>
@@ -124,7 +123,7 @@
         <div class="row">
           <div class="col-md-6 pull-right">
             
-           <a href="http://www.youtube.com/watch?v=G-g9-6h0FCw" target="_blank"><img class="img-responsive" src="img/about.jpg" alt="Video promocional"></a>
+           <a href="#" target="_blank"><img class="img-responsive" src="img/about.jpg" alt="Video promocional"></a>
           </div>
           <div class="col-md-6 pull-left">
             <h2>Acerca del Congreso</h2>
@@ -167,10 +166,10 @@
           </div>
           <div class="col-md-4">
             <div class="speaker text-center">
-             <div class="img"><img class="img-responsive" src="img/tema2.jpg" alt="Poster Cientifico"></div>
-             <div class="name">POSTER CIENTÍFICO</div>
+             <div class="img"><img class="img-responsive" src="img/tema2.jpg" alt="Póster Cientifico"></div>
+             <div class="name">PÓSTER CIENTÍFICO</div>
              <div class="company"><a href="#">Convocatoria</a></div>
-             <div class="description">En el marco del congreso se presentarán los posters que expondrán las investigaciones, practicas o trabajos relacionados al TDAH.</div>
+             <div class="description">En el marco del congreso se presentarán los pósters que expondrán las investigaciones, prácticas o trabajos relacionados al TDAH.</div>
              <div class="socialmedia">
               <a href="#" class="btn"><i class="fa fa-facebook"></i></a>
                 <a href="#" class="btn"><i class="fa fa-twitter"></i></a>
@@ -211,7 +210,7 @@
              <div class="img"><img class="img-responsive" src="img/tema5.jpg" alt="Jornadas para Médicos"></div>
              <div class="name">JORNADAS PARA MÉDICOS</div>
              <div class="company"><br></div>
-             <div class="description">Revisión farmacología del TDAH y las diferentes comorbilidades.</div>
+             <div class="description">Revisión farmacológica del TDAH y las diferentes comorbilidades.</div>
              <div class="socialmedia">
               <a href="#" class="btn"><i class="fa fa-facebook"></i></a>
                 <a href="#" class="btn"><i class="fa fa-twitter"></i></a>
@@ -247,36 +246,39 @@
           </div>
         </div>
           
-        <div class="row speakers"> <!-- inicia cuadro ponentes -->
+        <div class="row speakers" data-equalizer> <!-- inicia cuadro ponentes -->
             <!-- inicia primera fila ponentes -->
-          <div class="col-md-4">
+          <div class="col-md-4" data-equalizer-watch>
             <div class="speaker text-center">
-              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/mar.png" alt="Maria Elena Frade"></div>
+              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/mar.png" alt="Mtra. María Elena Frade" title="Mtra. María Elena Frade"></div>
               <div class="name">Mtra. María Elena Frade</div>
-              <div class="company">Proyectodah</div>
-              <div class="description">Presidenta de la fundación Federico Hoth A.C. y Creadora del Proyectodah, México.</div>
+              <div class="company">Experta en TDAH</div>
+              <div class="description">Presidenta de la Fundación Cultural Federico Hoth A.C. y creadora del Proyectodah, México.</div>
+            <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="México" title="México">
+                </div>
               
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-equalizer-watch>
             <div class="speaker text-center">
-             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/bauermeister.png" alt="Speaker Image"></div>
-             <div class="name">Dr. José J. Bauermeister</div>
-             <div class="company">Psicólogo clínico</div>
-             <div class="description">Psicólogo clínico e investigador activo del TDAH. Profesor jubilado del a Universidad de Puerto Rico. El Dr. Bauermeister recibió el premio de Contribución Distinguida de la Asociación de Psicología de Puerto Rico y fue Miembro Distinguido en la Asociación Americana de Psicología en reconocimiento de sus aportaciones sobresalientes a la psicología. </div>
+             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/mondragon.png" alt="Dr. Manuel Mondragón y Kalb" title="Dr. Manuel Mondragón y Kalb"></div>     
+             <div class="name">Dr. Manuel Mondragón y Kalb</div>
+             <div class="company">Médico</div>
+             <div class="description">Funcionario público mexicano. Se desempeñó como Comisionado Nacional de Seguridad.</div>
+                <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="Mexico" title="Mexico">
+                </div>
+                
              
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-equalizer-watch>
           <div class="speaker text-center">
-            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/TimothyEdwinWilens.png" alt="Speaker Image"></div>
+            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/wilens.png" alt="Dr. Timothy Edwin Wilens" title="Dr. Timothy Edwin Wilens"></div>
             <div class="name">Dr. Timothy Edwin Wilens</div>
             <div class="company">Director  de Psiquiatría infantil, Hospital General de Massachusetts.</div>
             <div class="description">Su campo de investigación incluye la psicofarmacología de adultos y niños, así como la relación con el TDAH, trastornos bipolares, abuso de substancias y farmacoterapia del TDAH.</div>
-            <br>
-            <br>
-            <br>
-            
+              <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América">
+                </div>
           </div>
         </div>
         <!-- termina primera fila ponentes -->    
@@ -284,29 +286,29 @@
         
         <div class="col-md-4">
             <div class="speaker text-center">
-              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/solanto.png" alt="Speaker Image"></div>
-              <div class="name">Dr. Mary V. Solanto</div>
+              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/cooper.png" alt="Dra. Joyce Cooper-Kahn" title="Dra. Joyce Cooper-Kahn"></div>
+              <div class="name">Dra. Joyce Cooper-Kahn</div>
               <div class="company">Psicóloga Clínica</div>
-              <div class="description">Psicóloga clínica por la Universidad de Buffalo. Actualmente es Profesor asociado en psiquiatría en el Hospital Mount Sinai,  especialista en TDAH y en Terapia Cognitivo Conductual.</div>
-              
+              <div class="description">Psicóloga clínica especialista en problemas de aprendizaje y autora del libro  “Late, lost and unprepared” Co fundadora de Psychological Resource Association. Con experiencia particularmente en trastornos de la atención, problemas de aprendizaje y consultoría escolar en intervenciones para dificultades de las funciones ejecutivas.</div>
+               <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América"></div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="speaker text-center">
-             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/castellanos.png" alt="Speaker Image"></div>
-             <div class="name">Dr. Francisco Xavier Castellanos</div>
-             <div class="company">Psicólogo clínico</div>
-             <div class="description">Especialista en psiquiatría de niños y adolescentes, Director de investigación del NYU Child Study Center.Su trabajo se enfoca en la neurociencia y el TDAH basándose en estudios de imagen de la función y estructura cerebral.</div>
-             
+             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/bauermeister.png" alt="Dr. José J. Bauermeister" title="Dr. José J. Bauermeister"></div>
+             <div class="name">Dr. José J. Bauermeister</div>
+             <div class="company">Psicólogo Clínico</div>
+             <div class="description">Psicólogo clínico e investigador activo del TDAH. Profesor jubilado del a Universidad de Puerto Rico. El Dr. Bauermeister recibió el premio de Contribución Distinguida de la Asociación de Psicología de Puerto Rico y fue Miembro Distinguido en la Asociación Americana de Psicología en reconocimiento de sus aportaciones sobresalientes a la psicología.</div>
+             <div class="socialmedia">País: <img src="img/banderas/Puerto Rico.png" alt="España" title="España"></div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="speaker text-center">
-            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/quintero.png" alt="Speaker Image"></div>
+            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/quintero.png" alt="Dr. Javier Quintero" title="Dr. Javier Quintero"></div>
             <div class="name">Dr. Javier Quintero</div>
-            <div class="company">Doctor en Medicina y Cirugía</div>
-            <div class="description">Doctor en Medicina y Cirugía. Especialista en Psiquiatría infantil y de adolescentes. Co-autor del libro “Trastorno por Déficit de Atención a lo largo de la Vida”.
-            Actualmente es Jefe de Psiquiatría Hospital Infanta Leonor y director de la Clinica Dr. Quintero.</div>
+            <div class="company">Psiquiatra Infantil</div>
+            <div class="description">Doctor en Medicina y Cirugía. Especialista en Psiquiatría infantil y de adolescentes.  Co-autor del libro “Trastorno por Déficit de Atención a lo largo de la Vida”.Actualmente es Jefe de Psiquiatría Hospital Infanta Leonor y director de la Clínica Dr. Quintero.</div>
+            <div class="socialmedia">País: <img src="img/banderas/Spain.png" alt="España" title="España"></div>
             <br>
             <br>
           </div>
@@ -318,29 +320,29 @@
         
          <div class="col-md-4">
             <div class="speaker text-center">
-              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/correas.png" alt="Speaker Image"></div>
-              <div class="name">Dr. Javier Correas Lauffer</div>
-              <div class="company">Jefe del Servicio de psiquiatría del Hospital de Henares</div>
-              <div class="description">Co-autor del libro “Trastorno por Déficit de Atención a lo largo de la Vida”.</div>
-              
+              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/vela.png" alt="Dr. Ricardo Vela" title="Dr. Ricardo Vela"></div>
+              <div class="name">Dr. Ricardo Vela</div>
+              <div class="company">Psiquiatra Infantil y de la Adolescencia</div>
+              <div class="description">Psiquiatra infantil y de adolescentes, con muchos años de experiencia y práctica. Obtuvo su doctorado en la Universidad de Puerto Rico. Especialista en psiquiatría general de niños y adolescentes, depresión y TDAH. Actualmente trabaja en North Suffolk Mental Health Association y es psiquiatra asociado en el Hospital General de Massachusetts.</div>
+              <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América"></div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="speaker text-center">
-             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/sinfoto.png" alt="Speaker Image"></div>
-             <div class="name">Dra. María Teresa Acosta</div>
-             <div class="company">Departamento de Neurología en Children’s National Health System</div>
-             <div class="description">Especialista en Tumores Cerebrales, Neurofibromatosis, Déficit de Atención e Hiperactividad (TDAH), Trastornos del aprendizaje y retrasos en el desarrollo.</div>
-             
+             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/castellanos.png" alt="Dr. Francisco Xavier Castellanos" title="Dr. Francisco Xavier Castellanos"></div>
+             <div class="name">Dr. Francisco Xavier Castellanos</div>
+             <div class="company">Especialista en Psiquiatría de Niños y Adolescentes</div>
+             <div class="description">Especialista en psiquiatría de niños y adolescentes, Director de investigación del NYU Child Study Center.     Su trabajo se enfoca en la neurociencia y el TDAH basándose en estudios de imagen de la función y estructura cerebral.</div>
+             <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América"></div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="speaker text-center">
-            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/pera.png" alt="Speaker Image"></div>
-            <div class="name">Gina Pera</div>
-            <div class="company">Periodista</div>
-            <div class="description">Periodista galardonada y asesora para cualquier persona afectada por el TDAH. Mejor conocida por su libro “Is it you, me , or Adult A.D.D.?” Ponente internacional y tallerista. Gina es experta en conectarse con audiencias por su intenso deseo de compartir información a causa de su propia experiencia.</div>
-            
+            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/delapena.png" alt="Dr. Francisco de la Peña" title="Dr. Francisco de la Peña"></div>
+            <div class="name">Dr. Francisco de la Peña</div>
+            <div class="company">Paidopsiquiatra</div>
+            <div class="description">Profesor titular del curso de Psiquiatría infantil y de adolescentes. Coordinador de Investigación y Enseñanza del Instituto Nacional de Psiquiatría Ramón de la Fuente, SSA.</div>
+            <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="México" title="México"></div>
           </div>
         </div>       
         <!-- termina tercera fila ponentes -->
@@ -348,28 +350,29 @@
          <!-- cuarta fila ponentes -->
          <div class="col-md-4">
             <div class="speaker text-center">
-              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/glod.png" alt="Speaker Image"></div>
-              <div class="name">Dra. Carol Glod</div>
-              <div class="company">Dra. En Enfermería</div>
-              <div class="description">Dra. En Enfermería, fué Decana del Colegio de Graduados de Salem State University, ha trabajado en Northeastern University, Harvard University Medical School, en McLean Hospital. Actualmente es Rectora de Merrimack College.</div>
-              
+              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/barragan.png" alt="Dr. Eduardo Barragán" title="Dr. Eduardo Barragán"></div>
+              <div class="name">Dr. Eduardo Barragán</div>
+              <div class="company">Neurólogo Pediatra</div>
+              <div class="description">Médico General, Pediatra y Neurólogo Pediatra. Graduado en la Universidad Nacional Autónoma de Guadalajara. Presidente de la liga Latinoamericana para el estudio del Trastorno por Déficit de Atención e Hiperactividad (LILAPETDAH).</div>
+              <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="México" title="México"></div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="speaker text-center">
-             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/vela.png" alt="Speaker Image"></div>
-             <div class="name">Dr. Ricardo Vela</div>
-             <div class="company">Psiquiatra</div>
-             <div class="description">Psiquiatra infantil y psiquiatra de adolescentes, con muchos años de experiencia y práctica. Obtuvo su doctorado en la Universidad de Puerto Rico. Especialista en psiquiatría general de niños y adolescentes, depresión y TDAH.Actualmente trabaja en North Suffolk Mental Health Association y es psiquiatra asociado en el Hospital General de Massachusetts.</div>
-             
+             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/feggy.png" alt="Dra. Feggy Ostrosky" title="Dra. Feggy Ostrosky"></div>
+             <div class="name">Dra. Feggy Ostrosky</div>
+             <div class="company">Neuropsicóloga, Profesora e Investigadora</div>
+             <div class="description">Directora del laboratorio neuropsicología y psico-fisiología de la Facultad de Psicología de la UNAM. Licenciada en Psicología en la UNAM, estudios de maestría y posgrado en la Universidad de Northwestern, Evanston, Illinois. Su área de interés es el estudio de la relación entre el cerebro y la conducta humana. Ha publicado 15 libros y es autora de más de 200 artículos científicos.</div>
+             <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="México" title="México"></div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="speaker text-center">
-            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/sinfoto.png" alt="Speaker Image"></div>
-            <div class="name">Andrea Bilbow</div>
-            <div class="company">Directora</div>
-            <div class="description">DirectoraEjecutivay fundadora de ADDISS (Attention Deficit Disorder Information and Support Service)</div>
+            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/correas.png" alt="Dr. Javier Correas Lauffer" title="Dr. Javier Correas Lauffer"></div>
+            <div class="name">Dr. Javier Correas Lauffer</div>
+            <div class="company">Psiquiatra Infantil</div>
+            <div class="description">Jefe del Servicio de psiquiatría del Hospital de Henares. Co-autor del libro “Trastorno por Déficit de Atención a lo largo de la Vida”.</div>
+            <div class="socialmedia">País: <img src="img/banderas/Spain.png" alt="España" title="España"></div>
             <br>
             <br>
           </div>
@@ -381,34 +384,240 @@
         
         <div class="col-md-4">
             <div class="speaker text-center">
-              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/glod.png" alt="Speaker Image"></div>
+              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/glod.png" alt="Dra. Carol Glod" title="Dra. Carol Glod"></div>
               <div class="name">Dra. Carol Glod</div>
-              <div class="company">Dra. En Enfermería</div>
-              <div class="description">Dra. En Enfermería, fué Decana del Colegio de Graduados de Salem State University, ha trabajado en Northeastern University, Harvard University Medical School, en McLean Hospital. Actualmente es Rectora de Merrimack College.</div>
-              
+              <div class="company">Doctora en Enfermería</div>
+              <div class="description">Dra. en Enfermería, fué Decana del Colegio de Graduados de Salem State University, ha trabajado en Northeastern University, Harvard University Medical School y en McLean Hospital. Actualmente es Rectora de Merrimack College.</div>
+              <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América"></div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="speaker text-center">
-             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/vela.png" alt="Speaker Image"></div>
-             <div class="name">Dr. Ricardo Vela</div>
-             <div class="company">Psiquiatra</div>
-             <div class="description">Psiquiatra infantil y psiquiatra de adolescentes, con muchos años de experiencia y práctica. Obtuvo su doctorado en la Universidad de Puerto Rico. Especialista en psiquiatría general de niños y adolescentes, depresión y TDAH.Actualmente trabaja en North Suffolk Mental Health Association y es psiquiatra asociado en el Hospital General de Massachusetts.</div>
-             
+             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/solanto.png" alt="Dr. Mary V. Solanto" title="Dr. Mary V. Solanto"></div>
+             <div class="name">Dr. Mary V. Solanto</div>
+             <div class="company">Psicóloga</div>
+             <div class="description">Psicóloga clínica por la Universidad de Buffalo. Actualmente es Profesor asociado en Psiquiatría en el Hospital Mount Sinai,  especialista en TDAH y en Terapia Cognitivo Conductual.</div>
+             <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América"></div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="speaker text-center">
-            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/sinfoto.png" alt="Speaker Image"></div>
-            <div class="name">Andrea Bilbow</div>
-            <div class="company">Directora</div>
-            <div class="description">DirectoraEjecutivay fundadora de ADDISS (Attention Deficit Disorder Information and Support Service)</div>
-            
+            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/macosta.png" alt="Dra. María Teresa Acosta" title="Dra. María Teresa Acosta"></div>
+            <div class="name">Dra. María Teresa Acosta</div>
+            <div class="company">Neuróloga Infantil</div>
+            <div class="description">Especialista en Tumores Cerebrales, Neurofibromatosis, Déficit de Atención e Hiperactividad (TDAH), Trastornos del aprendizaje y retrasos en el desarrollo.</div>
+            <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América"></div>
           </div>
         </div>       
 
          <!-- termina quinta fila ponentes -->
            
+          <!-- sexta fila ponentes -->
+          
+          <div class="col-md-4">
+            <div class="speaker text-center">
+              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/andreab.png" alt="Dra. Andrea Bilbow" title="Dra. Andrea Bilbow"></div>
+              <div class="name">Dra. Andrea Bilbow</div>
+              <div class="company">Psicologa</div>
+              <div class="description">Directora Ejecutiva y fundadora de ADDISS (Attention Deficit Disorder Information and Support Service).</div>
+              <div class="socialmedia">País: <img src="img/banderas/England.png" alt="Inglaterra" title="Inglaterra"></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="speaker text-center">
+             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/pera.png" alt="Gina Pera" title="Gina Pera"></div>
+             <div class="name">Gina Pera</div>
+             <div class="company">Escritora y especialista en TDAH</div>
+             <div class="description">Periodista galardonada y asesora para cualquier persona afectada por el TDAH. Mejor conocida por su libro “Is it you, me , or Adult A.D.D.?” Ponente internacional y tallerista. Gina es experta en conectarse con audiencias por su intenso deseo de compartir información a causa de su propia experiencia.</div>
+             <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="speaker text-center">
+            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/sinfoto.png" alt="Dra. Armida Granados Rojas" title="Dra. Armida Granados Rojas"></div>
+            <div class="name">Dra. Armida Granados Rojas</div>
+            <div class="company">Doctora</div>
+            <div class="description">Jefa de la División de Enseñanza y Capacitación del Hospital Psiquiátrico Infantil “Dr. Juan N. Navarro</div>
+            <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="México" title="México"></div>
+          </div>
+        </div>       
+          
+
+          <!-- termina quinta fila ponentes -->
+
+          <!-- sexta fila ponentes -->
+        
+         <div class="col-md-4">
+            <div class="speaker text-center">
+              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/silvia_ortiz.png" alt="Dra. Silvia Ortiz León" title="Dra. Silvia Ortiz León"></div>
+              <div class="name">Dra. Silvia Ortiz León</div>
+              <div class="company">Psiquiatra Infantil y de la Adolescencia</div>
+              <div class="description">Titular del Curso de Especialización en Psiquiatría Infantil y de la Adolescencia en la Facultad de Medicina de la UNAM.</div>
+              <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="México" title="México"></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="speaker text-center">
+             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/jaimes.png" alt="Mtra. Aurora Jaimes Medrano" title ="Mtra. Aurora Jaimes Medrano"></div>
+             <div class="name">Mtra. Aurora Jaimes Medrano</div>
+             <div class="company">Maestra en psicología</div>
+             <div class="description">Mtra. en psicología del Departamento de Psiquiatría y Salud Mental de la Facultad de Medicina de la UNAM. Psicóloga clínica (experiencia en neurofeedback, entrenamiento neurocognitivo). Actualmente adscrita al área de investigación del Dpto. de Psiquiatría y Salud Mental.   Líneas de trabajo: TDAH en adultos, Neupsicología, desgaste profesional y mobbing.</div>
+             <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="Mexico" title="Mexico"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="speaker text-center">
+            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/miller.png" alt="Dra. Patrice Miller" title ="Dra. Patrice Miller"></div>
+            <div class="name">Dra. Patrice Miller</div>
+            <div class="company">Psicóloga</div>
+            <div class="description">Profesora en Psicología de Salem State University.Salem, Estados Unidos.</div>
+            <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América"></div>
+          </div>
+        </div>       
+
+
+           <!-- termina sexta fila ponentes -->
+
+           <!-- septima fila ponentes -->
+ 
+        <div class="col-md-4">
+            <div class="speaker text-center">
+              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/darlene.png" alt="Dra. Darlene Crone-Todde" title="Dra. Darlene Crone-Todde"></div>
+              <div class="name">Dra. Darlene Crone-Todde</div>
+              <div class="company">Psicóloga</div>
+              <div class="description">Profesora adjunta de Salem State University.</div>
+              <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América"></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="speaker text-center">
+             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/ruth.png" alt="Dra. Ruth Hughes" title="Dra. Ruth Hughes"></div>
+             <div class="name">Dra. Ruth Hughes</div>
+             <div class="company">Psicóloga Clínica</div>
+             <div class="description">Psicóloga Clínica y Directora Ejecutiva en CHADD (Children and Adults with AD/HD Attention-Deficit Hyperactivity Disorder).</div>
+             <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="speaker text-center">
+            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/durheim.png" alt="Dra. Mary Durheim" title="Dra. Mary Durheim"></div>
+            <div class="name">Dra. Mary Durheim</div>
+            <div class="company">Consultora Educativa</div>
+            <div class="description">Consultora educativa y ex presidenta de CHADD (Children and Adults with AD/HD Attention-Deficit Hyperactivity Disorder).</div>
+            <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América"></div>
+          </div>
+        </div>       
+
+
+           <!-- termina septima fila ponentes -->
+
+           <!-- octava fila ponentes -->
+
+        <div class="col-md-4">
+            <div class="speaker text-center">
+              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/ellen.png" alt="Dra. Ellen Rintell" title="Dra. Ellen Rintell"></div>
+              <div class="name">Dra. Ellen Rintell</div>
+              <div class="company">Psicóloga</div>
+              <div class="description">Profesora en Psicología de Salem State University, Estados Unidos.</div>
+              <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América"></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="speaker text-center">
+             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/navarrete.png" alt="Dr. Rodrigo Marín Navarrete" title="Dr. Rodrigo Marín Navarrete"></div>
+             <div class="name">Dr. Rodrigo Marín Navarrete</div>
+             <div class="company">Psicólogo</div>
+             <div class="description">Doctor en Psicología. Especialista en salud mental y adicciones.</div>
+             <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="México" title="México"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="speaker text-center">
+            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/oscarsanchez.png" alt="Dr. Oscar Sánchez Guerrero" title="Dr. Oscar Sánchez Guerrero"></div>
+            <div class="name">Dr. Oscar Sánchez Guerrero</div>
+            <div class="company">Psiquiatra Infantil y de la Adolescencia</div>
+            <div class="description">Médico cirujano con especialidad en Psiquiatría, maestría en Psiquiatría Infantil y Adolescencia,  miembro de la Asociación Mexicana de Psiquiatría.</div>
+            <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="México" title="México"></div>
+          </div>
+        </div>        
+
+
+           <!-- termina octava fila ponentes -->
+
+           <!-- novena fila ponentes -->
+
+        <div class="col-md-4">
+            <div class="speaker text-center">
+              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/hudson.png" alt="Dr. Chris Hudson" title="Dr. Chris Hudson" ></div>
+              <div class="name">Dr. Chris Hudson</div>
+              <div class="company">Doctor en Trabajo Social</div>
+              <div class="description">Profesor en la Escuela de Trabajo Social en Salem State University.</div>
+              <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América"></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="speaker text-center">
+             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/rosa.png" alt="Dra. Rosa Elena Ulloa" title="Dra. Rosa Elena Ulloa"></div>
+             <div class="name">Dra. Rosa Elena Ulloa</div>
+             <div class="company">Psiquiatra Infantil y de la Adolescencia</div>
+             <div class="description">Psicóloga clínica especialista en problemas de aprendizaje y autora del libro  “Late, lost and unprepared” Co fundadora de Psychological Resource Association. Con experiencia particularmente en trastornos de la atención, problemas de aprendizaje y consultoría escolar en intervenciones para dificultades de las funciones ejecutivas.</div>
+             <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="México" title="México"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="speaker text-center">
+            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/saulgarza.png" alt="Dr. Saúl Garza Morales" title="Dr. Saúl Garza Morales"></div>
+            <div class="name">Dr. Saúl Garza Morales</div>
+            <div class="company">Neurólogo Pediatra</div>
+            <div class="description">Jefe del Departamento de Neurología y Profesor Titular de la especialidad en Neurología Pediátrica del Hospital Infantil  de México “Federico Gómez”, SSA.</div>
+            <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="México" title="México"></div>
+          </div>
+        </div>        
+
+
+           <!-- termina novena fila ponentes -->
+
+            <!-- decima fila ponentes -->
+
+        <div class="col-md-4">
+            <div class="speaker text-center">
+              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/roberto.png" alt="Dr. Roberto de la Fuente" title="Dr. Roberto de la Fuente"></div>
+              <div class="name">Dr. Roberto de la Fuente</div>
+              <div class="company">Psiquiatría Infantil y de la Adolescencia</div>
+              <div class="description">Presidente de la Asociación Mexicana de Psiquiatría Infantil.</div>
+              <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="México" title="México"></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="speaker text-center">
+             <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/oren_mason.png" alt="Dr. Oren Mason" title="Dr. Oren Mason"></div>
+             <div class="name">Dr. Oren Mason</div>
+             <div class="company">Médico Familiar</div>
+             <div class="description">Médico familiar especializado en trastornos de la atención,  y en el diagnóstico y tratamiento incluyendo el Trastorno por Déficit de Atención e Hiperactividad y deficiencias en las Funciones Ejecutivas. Autor de “Reaching For a New Potential: A Life Guide for Adults with ADD From a Fellow Traveler”. Fundador de Attention MD.</div>
+             <div class="socialmedia">País: <img src="img/banderas/Usa.png" alt="Estados Unidos de América" title="Estados Unidos de América"></div>
+          </div>
+        </div>
+          <div class="col-md-4">
+          <div class="speaker text-center">
+            <div class="img"><img class="img-responsive"  style="margin-left: 74px;" src="img/benavides.png" alt="Dr. Oscar Benavides" title="Dr. Oscar Benavides"></div>
+            <div class="name">Dr. Oscar Benavides</div>
+            <div class="company">Neurólogo Pediatra</div>
+            <div class="description">Teniente coronel y Médico Cirujano, Director del Centro de Rehabilitación Infantil (CRI) de la Secretaría de la Defensa Nacional (Sedena).</div>
+            <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="México" title="México"></div>
+          </div>
+        </div>
+            
+            <!-- termina decima fila ponentes -->
+         
+         <div class="col-md-4">
+            <div class="speaker text-center">
+              <div class="img" ><img class="img-responsive" style="margin-left: 74px;" src="img/palacios.png" alt="Dr. Lino Palacios" title="Dr. Lino Palacios"></div>
+              <div class="name">Dr. Lino Palacios</div>
+              <div class="company">Psiquiatra Infantil y de la Adolescencia</div>
+              <div class="description">Médico general por la Universidad Autónoma de Campeche y Postgrado en Psiquiatría de la Adolescencia, INPRFM/UNAM. Médico psiquiatra del Instituto Nacional de Psiquiatría investigador C de los Institutos de Salud. Fundador de SEQUOIA / ZELKOVA® Salud Mental Integral SC. que brinda servicios integrales de atención en salud mental a niños, adolescentes y adultos y sus familias.</div>
+              <div class="socialmedia">País: <img src="img/banderas/Mexico.png" alt="México" title="México"></div>
+            </div>
+
       </div><!-- termina cuadro ponentes-->
           
     </div>
@@ -421,17 +630,17 @@
       <div class="row">
         <div class="col-md-12">
           <h2>Programa</h2>
-          <h3>EL programa tiene una constante actualización y está sujeto a cambios sin previo aviso</h3>
+          <h3>El programa tiene una constante actualización y está sujeto a cambios sin previo aviso</h3>
         </div>
         <div class="col-md-12">
           <div class="program-tabs">
 
             <!-- menu programa inciia -->
             <ul class="nav nav-tabs">
-              <li class="active"><a href="#tab1" data-toggle="tab">2 de octubre <br> Psicólogos</a></li>
+              <li><a href="#tab1" data-toggle="tab">2 de octubre <br> Psicólogos</a></li>
               <li><a href="#tab2" data-toggle="tab">2 de octubre <br> Docentes</a></li>
               <li><a href="#tab3" data-toggle="tab">2 de octubre <br> Médicos</a></li>
-              <li><a href="#tab4" data-toggle="tab">3 de octubre <br> Congreso</a></li>
+              <li class="active"><a href="#tab4" data-toggle="tab">3 de octubre <br> Congreso</a></li>
               <li><a href="#tab5" data-toggle="tab">4 de octubre <br> Congreso</a></li>
               <li class="dropdown by-speakers">
                 <a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">en PDF <b class="caret"></b></a>
@@ -456,77 +665,67 @@
                   </div>
                   <div class="col-md-8">
                     <div class="description">
-                      <h3>Titulo del tema Psicólogos</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. <span class="label label-default">This is an labeled text snippet!</span> Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
+                      <h3>Manejo efectivo del impacto del TDAH en la familia</h3>
+                      <p><span class="label" style="color:grey;">Ponente:</span> Dr. José J. Bauermeister</p>
                     </div>
                   </div>
                 </div>
                 <div class="row program-node">
                   <div class="col-md-3">
-                    <div class="time text-center">10:00 am - 11:00 am</div>
+                    <div class="time text-center">Tema</div>
                   </div>
                   <div class="col-md-8">
                     <div class="description">
-                      <h3>Titulo del tema 2 Psicólogos</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. <a class="my-tooltip" href="#" data-toggle="tooltip" title="This is an demo tooltip!">Hover over me</a> Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
+                      <h3>TDAH y trastorno bipolar</h3>
+                      
                     </div>
                   </div>
                 </div>
                 <div class="row program-node">
                   <div class="col-md-3">
-                    <div class="time text-center">13:00 pm - 14:00 pm</div>
+                    <div class="time text-center">Tema</div>
                   </div>
                   <div class="col-md-8">
                     <div class="description">
-                      <h3>Titulo del tema 3 Psicólogos</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
+                      <h3>Abordando el TDAH mas allá de los síntomas nucleares</h3>
+                      
                     </div>
                   </div>
                 </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">15:00 pm - 16:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Titulo del tema 4 Psicólogos</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
+
               </div>
 
               <div class="tab-pane fade" id="tab2">
                 <div class="row program-node">
                   <div class="col-md-3">
-                    <div class="time text-center">10:00 am - 11:00 am</div>
+                    <div class="time text-center">Tema</div>
                   </div>
                   <div class="col-md-8">
                     <div class="description">
-                      <h3>Titulo del tema Docentes</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
+                      <h3>Intervenciones de comportamiento para trabajar con niños de diferentes edades</h3>
+                      
                     </div>
                   </div>
                 </div>
                 <div class="row program-node">
                   <div class="col-md-3">
-                    <div class="time text-center">12:00 am - 13:00 pm</div>
+                    <div class="time text-center">Tema</div>
                   </div>
                   <div class="col-md-8">
                     <div class="description">
-                      <h3>Titulo del tema 2 Docentes</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
+                      <h3>Intervenciones de comportamiento para trabajar con niños de diferentes edades</h3>
+                      
                     </div>
                   </div>
                 </div>
                 <div class="row program-node">
                   <div class="col-md-3">
-                    <div class="time text-center">14:00 pm - 16:00 pm</div>
+                    <div class="time text-center">Tema</div>
                   </div>
                   <div class="col-md-8">
                     <div class="description">
-                      <h3>Titulo del tema 3 Docentes</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
+                      <h3>DSM V</h3>
+                      
                     </div>
                   </div>
                 </div>
@@ -535,109 +734,76 @@
               <div class="tab-pane fade" id="tab3">
                 <div class="row program-node">
                   <div class="col-md-3">
-                    <div class="time text-center">10:00 am - 11:00 am</div>
+                    <div class="time text-center">Tema</div>
                   </div>
                   <div class="col-md-8">
                     <div class="description">
-                      <h3>Titulo del tema Médicos</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
+                      <h3>Impacto Familiar del TDAH</h3>
+                      
                     </div>
                   </div>
                 </div>
                 <div class="row program-node">
                   <div class="col-md-3">
-                    <div class="time text-center">12:00 am - 13:00 pm</div>
+                    <div class="time text-center">Tema</div>
                   </div>
                   <div class="col-md-8">
                     <div class="description">
-                      <h3>Titulo del tema Médicos</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
+                      <h3>Revisión del Tratamiento Integral y de Tratamientos alternativos del TDAH basados en la evidencia” (Continuación)</h3>
+                     
                     </div>
                   </div>
                 </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">14:00 pm - 16:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Titulo del tema Médicos</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
+
               </div>
 
               <div class="tab-pane fade" id="tab4">
                 <div class="row program-node">
                   <div class="col-md-3">
-                    <div class="time text-center">10:00 am - 11:00 am</div>
+                    <div class="time text-center">Tema</div>
                   </div>
                   <div class="col-md-8">
                     <div class="description">
-                      <h3>Titulo del tema Congreso 1</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
+                      <h3>Salud Mental y Seguridad Nacional en México</h3>
+                     
                     </div>
                   </div>
                 </div>
                 <div class="row program-node">
                   <div class="col-md-3">
-                    <div class="time text-center">12:00 am - 13:00 pm</div>
+                    <div class="time text-center">tema</div>
                   </div>
                   <div class="col-md-8">
                     <div class="description">
-                      <h3>Titulo del tema Congreso 1</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
+                      <h3>Impactos en el tiempo farmacológico</h3>
                     </div>
                   </div>
                 </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">14:00 pm - 16:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description"> 
-                      <h3>Titulo del tema Congreso 1</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
+
               </div>
 
               <div class="tab-pane fade" id="tab5">
                 <div class="row program-node">
                   <div class="col-md-3">
-                    <div class="time text-center">10:00 am - 11:00 am</div>
+                    <div class="time text-center">Tema</div>
                   </div>
                   <div class="col-md-8">
                     <div class="description">
-                      <h3>Titulo del tema Congreso 2</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
+                      <h3>Epilepsia y TDAH una relación compleja</h3>
+                      
                     </div>
                   </div>
                 </div>
                 <div class="row program-node">
                   <div class="col-md-3">
-                    <div class="time text-center">12:00 am - 13:00 pm</div>
+                    <div class="time text-center">Tema</div>
                   </div>
                   <div class="col-md-8">
                     <div class="description">
-                      <h3>Titulo del tema Congreso 2</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam faucibus nisi non nunc pharetra viverra nec eget ligula.</p>
-                    </div>
+                     <h3>Manejo farmacológico en casos difíciles del TDAH</h3>
                   </div>
                 </div>
-                <div class="row program-node">
-                  <div class="col-md-3">
-                    <div class="time text-center">14:00 pm - 16:00 pm</div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="description">
-                      <h3>Titulo del tema Congreso 2</h3>
-                      <p>Lorem ipsum dolor sit amet, sectetur adipiscing elit. Nam tooltip nisi non nunc pharetra viverra nec eget ligula.Lorem ipsum dolor sit amet, sectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
+
               </div>
             </div>
             <!-- tablas programa fin -->
@@ -675,9 +841,7 @@
                     <div class="col-md-3">
                       <div class="sponsor"><img class="img-responsive" src="img/sponsor3.jpg" alt="Sponsor"></div>
                     </div>
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor4.jpg" alt="Sponsor"></div>
-                    </div>
+                    
                   </div>
                   <!-- bloque 1 fin -->
 
@@ -689,9 +853,7 @@
                     <div class="col-md-3">
                       <div class="sponsor"><img class="img-responsive" src="img/sponsor1.jpg" alt="Sponsor"></div>
                     </div>
-                    <div class="col-md-3">
-                      <div class="sponsor"><img class="img-responsive" src="img/sponsor4.jpg" alt="Sponsor"></div>
-                    </div>
+                    
                     <div class="col-md-3">
                       <div class="sponsor"><img class="img-responsive" src="img/sponsor2.jpg" alt="Sponsor"></div>
                     </div>
@@ -758,11 +920,12 @@
         </div>
       </div>
       <div class="col-md-6">
-        <img src="img/logo_marriott.png" align="left" alt="Marriott Refoma"><h2>Marriot Reforma</h2><br>
-        <h3>Ciudad de México</h3>
-        <p>Display multiple images with beautiful carousel sliders. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vero voluptas delectus explicabo maxime ad qui incidunt! Saepe.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <a href="http://www.espanol.marriott.com/hotels/hotel-information/travel/mexmc-mexico-city-marriott-reforma-hotel/" class="btn btn-color1" target="_blank">Ir al sitio web del hotel</a>
+        <img src="img/logo_marriott.png" align="left" alt="Marriott Refoma"><h2>Hotel Marriot Reforma</h2><br>
+        
+        <p>El Mexico City Marriott Reforma Hotel se encuentra ubicado cerca de Polanco y a pasos del monumento del Ángel de la Independencia, el símbolo más reconocido de esta ciudad cosmopolita, frente a la embajada de los EE. UU. <br/>
+        La ubicación excelente de este hotel en Ciudad de México brinda a los huéspedes acceso fácil a los principales distritos financieros, culturales, comerciales y de entretenimiento de la ciudad.</p>
+          <p>Paseo de la Reforma 276 Col Juárez Ciudad de México, Distrito Federal C.P.06600 México</p>
+        <a href="http://www.espanol.marriott.com/hotels/hotel-information/travel/mexmc-mexico-city-marriott-reforma-hotel/" class="btn btn-color1" target="_blank">Ir al sitio web del hotel</a><br />
       </div>      
     </div>
   </div>
@@ -775,13 +938,13 @@
     <div class="row">
       <div class="col-md-6">
         <h2>Testimonios</h2>
-        <h3>Congresos anteriores</h3>
-        <p>You can also show videos in this section! Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vero voluptas delectus explicabo maxime ad qui incidunt! Saepe.</p>
+        
+        <p>Durante 10 años consecutivos Proyectodah ha logrado concentrar a especialistas nacionales e internacionales para actualizar a la sociedad sobre las últimas investigaciones y descubrimientos del tratamiento del TDAH.</p>
+        <p>Te invitamos a conocer algunos testimonios de los más de 2000 asistentes que nos han acompañado.</p>
       </div> 
       <div class="col-md-6">
         <div class="video">
-          <iframe width="420" height="315" src="https://www.youtube.com/embed/qeTxDEy0vwE?rel=0" frameborder="0" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Icd6eUI8J70?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -798,54 +961,129 @@
 
 <!-- tu mail inicia -->
 <section id="newsletter">
- <div class="container">
- 
-    <div class="row text-center">
-      <div class="col-md-12">
-        <h2>Paquetes</h2>
-      </div>
-    </div>
     
+    
+    <!-------------------------------- -->
+    <div class="container">
     <div class="row">
-      <div class="col-md-2 col-md-offset-1">
-        <div>Paquete 1</div>
-      </div>
+        <h2 class="text-center">Paquetes</h2>
+        <hr>
+        <div class="col-sm-3">
+          <div class="panel panel-primary text-center">
+            <div class="panel-heading">
+              <h3>Congreso</h3>
+            </div>
+            <div class="panel-body">
+              <span class="panel-title price">$2000</span><br>
+              <span class="price-cents">El día del evento $2500</span><br>
+              <span class="price-month">Sólo viernes y sábado</span>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">Kit de bienvenida</li>
+              <li class="list-group-item">Traducción simultánea</li>
+              <li class="list-group-item">Coffee break</li>
+              <li class="list-group-item">Brindis de aniversario</li>
+              <li class="list-group-item">Sesión de pósters</li>
+              <li class="list-group-item">Constancia de participación</li>
+              <li class="list-group-item"><a href="#becas" class="btn btn-primary" data-toggle="modal" data-target="#becas">Solicitar Beca</a></li>
+              <li class="list-group-item" style="background-color:#c4e4de;">$1,250 con beca</li>
+            </ul>
+          </div>          
+        </div>
+        <div class="col-sm-3">
+          <div class="panel panel-primary text-center">
+            <div class="panel-heading">
+              <h3>Jornadas</h3>
+            </div>
+            <div class="panel-body">
+              <span class="panel-title price">$1500</span><br>
+                 <span class="price-cents">El día del evento $1700</span><br>
+              <span class="price-month">Sólo jueves</span>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">Sesiones académicas (médicos, psicólogos, docentes o padres)</li>
+              <li class="list-group-item">Kit de bienvenida</li>
+              <li class="list-group-item">Traducción simultánea</li>
+              <li class="list-group-item">Coffee break</li>
+              <li class="list-group-item">Constancia de participación</li>
+              <li class="list-group-item"><a href="#becas" class="btn btn-primary" data-toggle="modal" data-target="#becas">Solicitar Beca</a></li>
+              <li class="list-group-item" style="background-color:#c4e4de;">$850 con beca</li>
+            </ul>
+          </div>          
+        </div>
+        <div class="col-sm-3">
+          <div class="panel panel-success text-center">
+            <div class="panel-heading">
+              <h3><span style="color:#3b7821;">Congreso y Jornadas</span></h3>
+            </div>
+            <div class="panel-body">
+              <span class="panel-title price">$2700</span><br>
+                 <span class="price-cents">El día del evento $4000</span><br>
+              <span class="price-month">Sólo jueves, viernes y sábado</span>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">Sesiones académicas (médicos, psicólogos, docentes o padres)</li>
+              <li class="list-group-item">Kit de bienvenida</li>
+              <li class="list-group-item">Traducción simultánea</li>
+              <li class="list-group-item">Coffee break</li>
+              <li class="list-group-item">Brindis de aniversario</li>
+              <li class="list-group-item">Sesión de pósters</li>
+              <li class="list-group-item">Constancia de participación</li>
+              <li class="list-group-item"><a href="#becas" class="btn btn-primary" data-toggle="modal" data-target="#becas">Solicitar Beca</a></li>
+              <li class="list-group-item" style="background-color:#c4e4de;">$2,000 con beca</li>
+            </ul>
+          </div>          
+        </div>
+        <div class="col-sm-3">
+          <div class="panel panel-primary text-center">
+            <div class="panel-heading">
+              <h3>Curso Pe a Pa y Congreso</h3>
+            </div>
+            <div class="panel-body">
+              <span class="panel-title price">$2200</span><br>
+                 <span class="price-cents">El día del evento $3200</span><br>
+              <span class="price-month">Sólo miércoles, jueves, viernes y sábado</span>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">Curso de entramiento para mamás y papás(pareja)(16 horas)</li>
+              <li class="list-group-item">Asistencia al Congreso Internacional</li>
+              <li class="list-group-item">Carpeta de trabajo</li>
+              <li class="list-group-item">Coffee break</li>
+              <li class="list-group-item">Constancia del curso</li>
+              <li class="list-group-item">Constancia del congreso</li>
+              <li class="list-group-item"><a href="#becas" class="btn btn-primary" data-toggle="modal" data-target="#becas">Solicitar Beca</a></li>
+              <li class="list-group-item" style="background-color:#c4e4de;">$1,600 con beca</li>
+            </ul>
+          </div>          
+        </div>
  
-
-      <div class="col-md-2 col-md-offset-1">
-        <div>Paquete 2</div>
       </div>
-  
-
-      <div class="col-md-2 col-md-offset-1">
-        <div>Paquete 3</div>
-      </div>
-  
-	
-      <div class="col-md-2 col-md-offset-1">
-        <div>Paquete 4</div>
-      </div>
+    </div> 
+    
+    
+    
+    <!-- ------------------------------- -->
+ 
  
 </div><!-- termina Row -->
  <div class="row text-center">
- <div class="col-md-12"
+ <div class="col-md-12">
  <br><br><hr><br>
  </div>
  <div class="col-md-4">
- <a href="#myModal" class="btn btn-color1" data-toggle="modal" data-target="#myModal">Estacionamiento</a>
+ <a href="#faq" class="btn btn-warning" data-toggle="modal" data-target="#faq"><span style="color: #000;"><i class="fa fa-question-circle"></i> Preguntas Frecuentes</span></a>
  </div>
   <div class="col-md-4">
- <a href="#myModal" class="btn btn-color1" data-toggle="modal" data-target="#myModal">Politicas de rembolso</a>
+ <a href="#videopaypal" class="btn btn-warning" data-toggle="modal" data-target="#videopaypal"><span style="color: #000;">¿Cómo realizar el pago en línea?</span></a>
  </div>
    <div class="col-md-4">
- <a href="#myModal" class="btn btn-color1" data-toggle="modal" data-target="#myModal">Aviso confidencialidad de datos</a>
+ <a href="#myModal" class="btn btn-warning" data-toggle="modal" data-target="#myModal"><span style="color: #000;">Aviso confidencialidad de datos</span></a>
  </div>
  </div> 
-	
+  
 </div>
 </section>
 <!-- tu mail fin -->
-
 
 <!-- registro inicia -->
 <section id="register">
@@ -857,11 +1095,6 @@
         </div>
       </div> 
       <div class="row">
-        <div class="col-md-12">
-          <div class="alert"><!-- ajax content --></div>
-        </div>
-      </div>
-      <div class="row">
        <div class="col-md-6 plans">
          <h3>1. Selecciona tu paquete</h3>
          <div class="plan">
@@ -871,7 +1104,7 @@
            <div class="offer">
              <h4>1) Congreso  <span class="label">$ 2000</span></h4>
              <p>Sólo los días 3 y 4 de octubre.<br>
-               Al termino recibira una constancía de participación y dispositivas. La cuota el día del evento es de $2500
+               Al termino recibirá una constancía de participación y diapositivas. La cuota el día del evento es de $2500
              </p> 
            </div>
          </div>
@@ -882,7 +1115,7 @@
            <div class="offer">
              <h4>2) Jornadas <span class="label">$ 1500</span></h4>
              <p>Sólo el día 2 de octubre.<br>
-Al termino recibira una constancía de participación y dispositivas. La cuota el día del evento es de $1700</p> 
+Al termino recibirá una constancía de participación y diapositivas. La cuota el día del evento es de $1700</p> 
            </div>
          </div>
          <div class="plan">
@@ -892,7 +1125,7 @@ Al termino recibira una constancía de participación y dispositivas. La cuota e
            <div class="offer">
              <h4>3) Congreso y Jornadas <span class="label">$ 2700</span></h4>
              <p>Todos los días 2, 3 y 4 de octubre.<br>
-Al termino recibira una constancía de participación y dispositivas. La cuota el día del evento es de $4000</p> 
+Al termino recibirá una constancía de participación y diapositivas. La cuota el día del evento es de $4000</p> 
            </div>
          </div>
          <div class="plan">
@@ -900,91 +1133,212 @@ Al termino recibira una constancía de participación y dispositivas. La cuota e
              <i class="fa fa-square-o"></i>
            </div>
            <div class="offer">
-             <h4>4) PeaPa y Congreso <span class="label">$ 1600</span></h4>
-             <p>Todos los días 2, 3 y 4 de octubre.<br>
-Al termino recibira una constancía de participación y dispositivas. La cuota el día del evento es de $3200</p> 
+             <h4>4) PeaPa y Congreso <span class="label">$ 2200</span></h4>
+             <p>Todos los días 1, 2, 3 y 4 de octubre.<br>
+Al termino recibirá una constancía de participación y diapositivas. La cuota el día del evento es de $3200</p> 
+           </div>
+         </div>
+           <br>
+         <div style="cursor: default; background-color:#f8f8eb">
+           <div class="offer">
+             
+             <p>Mensualidades de 3 y 6 meses con <img src="https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom.svg">.<br>
+Aplican comisiones por parte de Paypal</p>
+               <hr>
+               <p>*Becas sujetas a disposición y aprobación con su documentación correspondiente</p>
+               
+               
            </div>
          </div>
        </div>
        <div class="col-md-6 register-form">
          <h3>2. Ingrese su información personal</h3>
-         <form action="inc/form-mail.php" method="post" id="register-form">
+         <form id="register-form" name="register-form" accept-charset="UTF-8">
           <input type="hidden" name="plan">
           <input type="hidden" name="form-type" value="contact">
            <div class="row">
             <div class="col-md-12">
-              <input type="text" name="first_name" class="form-control" placeholder="Nombre">
+              <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre" required>
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
-              <input type="text" name="last_name" class="form-control" placeholder="Apellidos">
+              <input type="text" name="apellipa" class="form-control"  placeholder="Apellido Paterno" required>
+            </div>
+          </div>
+             <div class="row">
+            <div class="col-md-12">
+              <input type="text" name="apellima" class="form-control"  placeholder="Apellido Materno" required>
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
-              <input type="text" name="email" class="form-control" placeholder="Email">
+              <input type="text" name="emailu" class="form-control" placeholder="Email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
-              <input type="text" name="address" class="form-control" placeholder="Estado">
+              <input type="text" name="tel" class="form-control"  placeholder="Teléfono" required>
+            </div>
+          </div>
+
+                <select name="estado" id="estado">
+                    <option value="Otro pais">No soy de México</option>
+                <option value="Aguascalientes">Aguascalientes</option>
+	<option value="Baja California">Baja California</option>
+	<option value="Baja California Sur">Baja California Sur</option>
+	<option value="Campeche">Campeche</option>
+	<option value="Chiapas">Chiapas</option>
+	<option value="Chihuahua">Chihuahua</option>
+	<option value="Coahuila">Coahuila</option>
+	<option value="Colima">Colima</option>
+	<option value="Distrito Federal" selected>Distrito Federal</option>
+	<option value="Durango">Durango</option>
+	<option value="Estado de México">Estado de México</option>
+	<option value="Guanajuato">Guanajuato</option>
+	<option value="Guerrero">Guerrero</option>
+	<option value="Hidalgo">Hidalgo</option>
+	<option value="Jalisco">Jalisco</option>
+	<option value="Michoacán">Michoacán</option>
+	<option value="Morelos">Morelos</option>
+	<option value="Nayarit">Nayarit</option>
+	<option value="Nuevo León">Nuevo León</option>
+	<option value="Oaxaca">Oaxaca</option>
+	<option value="Puebla">Puebla</option>
+	<option value="Querétaro">Querétaro</option>
+	<option value="Quintana Roo">Quintana Roo</option>
+	<option value="San Luis Potosí">San Luis Potosí</option>
+	<option value="Sinaloa">Sinaloa</option>
+	<option value="Sonora">Sonora</option>
+	<option value="Tabasco">Tabasco</option>
+	<option value="Tamaulipas">Tamaulipas</option>
+	<option value="Tlaxcala">Tlaxcala</option>
+	<option value="Veracruz">Veracruz</option>
+	<option value="Yucatán">Yucatán</option>
+	<option value="Zacatecas">Zacatecas</option>
+                </select>
+             
+             <div class="row">
+            <div class="col-md-12">
+              <select name="profesion" id="profesion">
+                <option value="Psicólogo">Psicólogo</option>
+                  <option value="Médico">Médico</option>
+                  <option value="Docente">Docente</option>
+                  <option value="Padre de Familia">Padre de Familia</option>
+                  <option value="Ninguna">Ninguna de las anteriores</option>
+              </select>
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
-              <input type="text" name="zip_code" class="form-control" placeholder="Profesión">
+              <select name="beca" id="beca">
+                <option value="Sin beca" selected>Sin solicitud de beca</option>
+                  <option value="Soy Estudiante">Soy Estudiante</option>
+                  <option value="Tengo membresia Amigodah">Tengo membresia Amigodah</option>
+                  <option value="Soy miembro GADAH">Soy miembro GADAH</option>
+                  <option value="Soy servidor público">Soy servidor público</option>
+                  <option value="Asociado">Asociado</option>
+              </select>
             </div>
           </div>
-          <div class="row">
+         <div class="row">
             <div class="col-md-12">
-              <input type="text" name="city" class="form-control" placeholder="Teléfono">
+              <select name="fpago" id="fpago">
+                <option value="Deposito" selected>Depósito Bancario</option>
+                  <option value="Paypal">Pago en línea con PayPal</option>
+              </select>
             </div>
           </div>
+         <hr>Datos fiscales para su recibo deducible de impuestos - solo para México<hr>
+             
+                        <div class="row">
+            <div class="col-md-12">
+              <input type="text" name="razon" class="form-control" value="Razón Social" placeholder="Razón Social" required>
+            </div>
+          </div>
+                        <div class="row">
+            <div class="col-md-12">
+              <input type="text" name="rfc" class="form-control" Value="RFC" placeholder="RFC" required>
+            </div>
+          </div>
+                        <div class="row">
+            <div class="col-md-12">
+              <input type="text" name="emailf" class="form-control" value="E-mail fiscal" placeholder="E-mail fiscal a donde llegara su recibo" required>
+            </div>
+          </div>
+                        <div class="row">
+            <div class="col-md-12">
+              <input type="text" name="dirf" class="form-control" value="Dirección Fiscal completa" placeholder="Dirección fiscal completa" required>
+            </div>
+          </div>
+
+          
+            <! -- fin -->
+
           <div class="row">
             <div class="col-md-12">
-              <button type="submit" class="btn btn-block btn-default" data-loading-text="Cargando..." data-complete-text="¡Registro Completo!">Enviar Registro</button>
+             <button type="submit" class="btn btn-block btn-default" id="btsubmit" name="btsubmit"><span id="cargandotxt">ENVIAR REGISTRO</span><i class="fa fa-spinner fa-spin" id="cargandoimg"></i></button> 
+                
+              
             </div>
+              </div>
+             </div>
           </div>
         </form>
+        
       </div>
     </div> 
   </div>
 </section>
 <!-- Register fin -->
-
-<!-- Twitter inicia -->
-<section id="twitter">
-  <div class="container">
+<section id="cool">
+    <div class="container">
     <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <div class="row">
-          <div class="col-md-2">
-            <i class="fa fa-twitter"></i>
-          </div>
-          <div class="col-md-10">
-            <div id="tweets">
-            <!-- tweets by twitterFetcher_v10_min.js -->
-            </div>
-          </div>
+        <div class="col-md-12 centra">
+                <p class="alert alert-success" style="font-size:250%"><i class="fa fa-check"></i> Gracias su registro fue enviado</p>
+
+                <p class="alert alert-warning" style="font-size:130%"><i class="fa fa-warning"></i> Para terminar su registro en necesario realice su pago</p>
+                <p class="alert alert-warning"><i class="fa fa-send"></i> Al concluir su pago y sea confirmado recibirá un email con su pase de entrada al evento</p>
+                <div class="panel panel-success">
+                    <div class="panel-heading">Datos del registro</div>
+                     <p class="alert alert-info" ><span class="glyphicon glyphicon-barcode"></span> Código de registro: 
+                                <strong><span class="label label-default" name="codigo" id="codigo"></span></strong></p>
+                        <div class="panel-body" id="tabla">
+                            
+                        </div>
+                </div>
+                <p class="alert alert-info"><i class="fa fa-money"></i> Deposito Bancario<br /><img src="img/deposito.gif"></p> 
+            <p class="alert alert-info" id="btnpaypal">  </p>
+            <p class="alert centra"><a class="btn btn-color1" href="javascript:imprSelec('cool')"><i class="fa fa-print"></i> Imprimir</a></p><br />
+                
         </div>
-      </div>
-    </div>
-  </div>
+    </div></div>
+    
 </section>
-<!-- Twitter fin -->
+<section id="nou">
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+                <p class="alert alert-danger" style="font-size:250%"><i class="fa fa-times-circle"></i> Error al recibir su registro</p>
+                <br />
+                <p class="alert alert-warning " style="font-size:100%"><i class="fa fa-warning"></i> Favor de intentarlo más tarde</p>
+
+        </div>
+    </div>
+        </div>
+</section>
 
 <!-- Footer inicia-->
 <footer>  
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <p>Copyright &copy; 2014 Proyectodah</p>
+        <p>Copyright &copy; 2014 <a href="https://www.cerebrofeliz.org" target="_blank"><span style="color:#fff;" >Proyectodah</span></a></p>
       </div>
       <div class="col-md-6">
         <div class="socialmedia pull-right">
-          <a href="#" class="btn"><i class="fa fa-facebook"></i></a>
-          <a href="#" class="btn"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.facebook.com/Proyectodah" class="btn"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/cerebrofeliz" class="btn"><i class="fa fa-twitter"></i></a>
           <a href="#" class="btn"><i class="fa fa-instagram"></i></a>
          
         </div>
@@ -996,20 +1350,245 @@ Al termino recibira una constancía de participación y dispositivas. La cuota e
 
 
 <!-- Demo Modal -->
+<div class="modal fade" id="becas" tabindex="-1" role="dialog" aria-labelledby="becasLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3 class="modal-title" id="becasLabel">Solicitud de Beca</h3>
+      </div>
+      <div class="modal-body">
+        <p>Becas: a estudiantes(limitado), miembros GADAH (limitado) y servidores público(limitado)</p>
+          
+          <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          Documentación para solicitar beca de <strong>Estudiante</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+       <p>
+          <ul>
+          <li>Credencial IFE o INE</li>
+          <li>Credencial de estudios vigente</li>
+          </ul>
+          </p><br />
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          Documentación para solicitar beca de <strong>Miembro GADAH</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          <ul>
+          <li>Credencial IFE o INE</li>
+          <li>Credencial de miembro GADAH vigente</li>
+          </ul>
+          </p><br />
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          Documentación para solicitar beca de <strong>Servidor Público</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          <ul>
+          <li>Credencial IFE o INE</li>
+          <li>Credencial de la institución de gobierno donde labora vigente</li>
+          </ul>
+          </p>
+      </div>
+    </div>
+  </div>
+</div>
+    <p class="alert alert-info">Escanear su documentación y enivarla por email a <strong>maricela@proyectodah.org.mx</strong></p>
+    <p class="alert">Si su beca es aceptada se le notificara por email. <br/>Su beca sera respetada para que pueda realizar su registro y pago</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn cancel" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- FAQ -->
+<div class="modal fade" id="faq" tabindex="-1" role="dialog" aria-labelledby="faqLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3 class="modal-title" id="faqLabel">Preguntas Frecuentes</h3>
+      </div>
+      <div class="modal-body">
+
+          <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOnefaq">
+          <strong>Estacionamiento</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOnefaq" class="panel-collapse collapse in">
+      <div class="panel-body">
+       <p>
+          <ul>
+          <li>El hotel Marriott Reforma cuenta con estacionamiento propio con una tarifa preferencial mencionando el evento, $150 pesos todo el día por automovil</li>
+          <li>EL costo por hora es de $52 pesos</li>
+          <li>El evento no cubre el costo</li>
+          </ul>
+          </p><br />
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwofaq">
+          <strong>Politicas de rembolso</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwofaq" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          <ul>
+          <li>Se puede hacer un rembolso máximo hasta 15 días antes del evento</li>
+          <li>Una vez pasado el evento no hay rembolsos</li>
+              <li class="alert alert-info">Dudas sobre el tema: roxana@proyectodah.org.mx</li>
+          </ul>
+          </p><br />
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThreefaq">
+           <strong>Requiere Factura</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThreefaq" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          <ul>
+          <li>Al cubrir el importe total se genera un recibo deducible de impuesto sobre la renta</li>
+          <li>Si requiere una factura el costo es más IVA (No aplica recibo deducible)</li>
+          <li>Solo aplicable a México</li>
+              <li class="alert alert-info">Dudas sobre el tema: roxana@proyectodah.org.mx</li>
+          </ul>
+          </p>
+      </div>
+    </div>
+  </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFourfaq">
+           <strong>Formas de pago</strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFourfaq" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          <ul>
+          <li>Puede realizar su pago con deposito bancario <a href="img/deposito.gif" target="_blank" title="Datos para realizar deposito bancario">Ver Datos</a></li>
+          <li>Puede realizar su pago con PayPal en una sola exibición con una comision del 4% o 3 y 6 meses con un cargo extra del 12% por comisiones, en la página de cobro de Paypal ya marca el total con las comision correspondiente.</li>
+          <li>Puede realizar su pago con Tarjeta Bacarias Master Card y Visa en nuestras instalaciones <a href="https://www.cerebrofeliz.org/contacto.html" target="_blank">Ver Croquis </a></li>
+        <li>No se acepta American Express</li>
+              <li class="alert alert-info">Dudas sobre el tema: roxana@proyectodah.org.mx</li>
+          </ul>
+          </p>
+      </div>
+    </div>
+  </div>
+</div>
+    <p class="alert alert-info">¿Tienes más dudas? <strong>congreso@proyectodah.org.mx</strong></p>
+    <p class="alert alert-primary">Telefonos: <br/>(55) 5339-5065 y (55) 5339-5936</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn cancel" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end FAQ -->
+<!--  video paypal -->
+
+<div class="modal fade" id="videopaypal" tabindex="-1" role="dialog" aria-labelledby="payLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="payLabel">Pagos en línea con Paypal</h4>
+      </div>
+      <div class="modal-body">
+       <p>Los pagos en línea con Paypal cuenta con mensualidades de 3 y 6 meses con una comisión del 12%, el pago en una sola exibición tienen una comision del 4% en la página de cobro de Paypal marca el total a pagar con la comision correspondiente.</p>
+        <iframe width="550" height="305" src="//www.youtube.com/embed/b0HYo8ZQ_W0" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn cancel" data-dismiss="modal">Cerrar</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end video paypal  -->
+
+
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Aviso</h4>
+        <h4 class="modal-title" id="myModalLabel">Aviso de Privacidad de Datos</h4>
       </div>
       <div class="modal-body">
-        <h2>Titulo del AViso</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, quasi velit soluta recusandae obcaecati. Libero, unde blanditiis impedit sit dolorem vero deleniti facilis a. Reiciendis alias laboriosam nostrum sint temporibus?</p>
+    <p>Con fundamento en los artículos 15 y 16 de la Ley Federal de Protección de Datos Personales en Posesión de Particulares hacemos de su conocimiento que Fundación Cultural Federico Hoth A.C. con domicilio en Torresco 6 Colonia Santa Catarína Delegación Coyoacán México D.F. Distrito Federal 04010 México es responsable de recabar sus datos personales, del uso que se le dé a los mismo y de su protección.<br />
+Su información persona será utilizada para las siguientes finalidades; proveer los servicios y productos que ha solicitado; notificarle sobre nuevos servicios o productos que tengan relación con los ya contratados o adquiridos; comunicarle sobre cambios en los mismos; elaborar estudios y programas que son necesarios para determinar hábitos de consumo; realizar evaluaciones periódicas de nuestros productos y servicios a efecto de mejorar la calidad de los mismo; evaluar la calidad del servicio que brindamos, y en general, para dar cumplimiento a las obligaciones que hemos contraído con usted.<br />
+Para las finalidades antes mencionadas, requerimos obtener los siguientes datos personales:<p>
+          <ul>
+<li>Nombre completo</li>
+<li>Teléfono fijo y/o celular</li>
+<li>Correo electrónico</li>
+<li>Dirección</li>
+<li>Nivel de escolaridad</li>
+<li>RFC y datos fiscales</li>
+<li>Estado</li>
+<li>País</li>
+<li>Profesión</li>
+              </ul>
+<p>Es importante informarle que usted tiene derecho al Acceso, Rectificación y Cancelación de sus datos personales, a Oponerse al tratamiento de los mismos o revocar el consentimiento que para dicho fin nos haya otorgado.<br />
+Para ello, es necesario que envíe solicitud en los términos que marca la Ley en su Art. 29 a Juan Carlos Pérez Castro Vázquez, responsable de nuestro Departamento de Protección de Datos Personales, ubicado en Torresco 6 Col. Santa Catarína Del. Coyoacán México D.F. Distrito Federal 04010 México, o bien se comunique al teléfono (55)5339-5065 o vía correo electrónico a info@proyectodah.org.mx, el cual solicitamos confirme vía telefónica para garantizar su correcta recepción.<br />
+En caso de que no desee de recibir mensajes promocionales de nuestra parte, puede enviarnos su solicitud por medio de la dirección electrónica: info@proyecotodah.org.mx
+Importante: Cualquier modificación a este Aviso de Privacidad podrá consultarlo en <a href="https://www.cerebrofeliz.org" target="_blank">www.cerebrofeliz.org</a><br />
+Fecha de última actualización: 18/junio/2014</p>
+
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn cancel" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn save">Enterado</button>
+        <button type="button" class="btn cancel" data-dismiss="modal">Enterado</button>
+        
       </div>
     </div>
   </div>
@@ -1017,15 +1596,31 @@ Al termino recibira una constancía de participación y dispositivas. La cuota e
 
 <a href="#" class="scrollup">Inicio</a>
 
+<script type="text/javascript">
+function imprSelec(cool)
+{var ficha=document.getElementById(cool);var ventimp=window.open(' ','popimpr');ventimp.document.write(ficha.innerHTML);ventimp.document.close();ventimp.print();ventimp.close();}
+</script>
 
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/jquery/jquery.1.8.1.js"></script>
+    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="js/jquery.placeholder.min.js"></script>
+    <script type="text/javascript" src="js/gmap3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
+<!-- Google
+================================================== -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/jquery.placeholder.min.js"></script>
-    <script src="js/gmap3.min.js"></script>
-    <script src="js/twitterFetcher_v10_min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/custom.js"></script>
+  ga('create', 'UA-28828423-2', 'congresotdah.mx');
+  ga('send', 'pageview');
+
+</script>
+<!-- END Google
   </body>
 </html>
